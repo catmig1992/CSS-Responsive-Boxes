@@ -7,14 +7,35 @@ body {
   font-size: 32px;
 }
 
-/* * {
+* {
   outline: 1px solid red;
-} */
+}
 
 .container {
   padding: 2rem;
   display: flex;
   flex-grow: 1;
-  flex-direction: column;
-  gap: 2rem;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+  justify-content: space-between;
+}
+
+.a {
+  flex: 1 1 100%;
+}
+
+.b {
+  flex-grow: 2;
+  flex: 1 1 100%;
+}
+
+.c,
+.d,
+.e {
+  flex-grow: 1;
+}
+
+.f {
+  width: 100%;
 }
