@@ -62,7 +62,11 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
   }
-  div.a {
+  .a {
+    flex: 1 1 100%;
+  }
+
+  .f {
     flex: 1 1 100%;
   }
 }
