@@ -12,7 +12,7 @@ body {
 } */
 
 .container {
-  padding: 1rem;
+  padding: 2rem;
   display: flex;
   flex-grow: 1;
   flex-direction: row;
@@ -38,8 +38,8 @@ body {
 
 .b {
   flex-grow: 1;
-  flex: 1 1 80%;
-  min-height: 50%;
+  flex: 1 1 70%;
+  min-height: 45%;
   min-width: 25%;
 }
 
@@ -47,17 +47,12 @@ body {
 .d,
 .e {
   flex-grow: 1;
-  min-height: 15%;
-  min-width: 20%;
+  min-height: 25%;
+  min-width: 30%;
 }
 
 .f {
   flex-grow: 1;
-  display: flex;
-  flex-direction: column;
-  flex-direction: wrap;
-  justify-content: flex-end;
-  /* align-items: stretch; */
   min-height: 15%;
   min-width: 30%;
 }
